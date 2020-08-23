@@ -5,5 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Println("Hola mundo")
+	fmt.Println(hellowworld("Juan"))
+}
+
+func hellowworld(name string) string {
+	response := "Hello " + name
+	return response
 }
